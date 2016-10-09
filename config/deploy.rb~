@@ -12,7 +12,7 @@ set :keep_releases, 5
 # rbenvの設定
 set :rbenv_type, :system    # rbenv_custom_pathを指定していれば不要
 set :rbenv_ruby, '2.2.2'    # rubyのバージョン（事前に指定バージョンをインストールしておく必要あり。）
-set :rbenv_custom_path, '/home/vagrant/.rbenv'    # rbenvのインストール先
+set :rbenv_custom_path, '/opt/rbenv'    # rbenvのインストール先
 set :rbenv_map_bins, %w{rake gem bundle ruby rails} # rbenv execをつけたいコマンド
 
 set :default_env, {
